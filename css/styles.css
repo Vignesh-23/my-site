@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#1B1E24;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 3.5rem;
+    font-family: 'Meddon', cursive;
+    color: #eeeeee;
+}
+
+h2{ 
+    font-family: 'New Tegomin', serif;
+    font-size: 2.5rem;
+    color: #eeeeee;
+}
+
+h3{
+    font-family: 'New Tegomin', serif;
+    color: #eeeeee;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #393e46 0.5rem;
+    margin: 10rem auto;
+    width: 5%;
+    border-bottom: none;
+}
+
+.programmer{
+    font-size: 2rem;
+    font-family: 'Gruppo', cursive;
+    color: #eeeeee;
+    font-weight: normal;
+}
+.top-container{
+    background-color: #222831;
+    height: fit-content;
+    padding-top: 10rem;
+    position: relative;
+}
+
+
+.image-planet{
+    width: 15rem;
+    position: absolute;
+}
+
+.image-rocket{
+    width: 18.27rem;
+    margin: 0rem 14rem 0 0;
+}
+
+.top-planet{
+    left: 15rem;
+    top: 0rem;
+}
+.bottom-planet{
+    right: 15rem;
+    top: 20rem;
+}
+
+.skill-row-left{
+    width: 40%;
+    margin: 10rem auto;
+    text-align: left;
+}
+
+.skill-row-right{
+    width: 40%;
+    margin: 10rem auto;
+    text-align: right;
+}
+
+.middle-container{
+    background-color: #00adb5;
+}
+
+.bio{
+    width: 30%;
+    margin: auto;
+}
+
+.hanging-stars{
+    width: 15%;
+    z-index: 10;
+    position:absolute;
+    display: none;
+    top: 0;
+    left: 50rem;
+
+}
+
+.myface{
+    width: 15rem;
+    margin: 5rem auto 0 auto;
+}
+
+.image-webD{
+    width: 15%;
+    float: left;
+    margin: 20px 40px 10px 0;
+}
+
+.image-router{
+    width: 15%;
+    float: right;
+    margin:0 0 0 30px;
+
+}
+
+.image-cloud{
+    width: 15%;
+    float: left;
+    margin: 0 40px 10px 0;
+}
+
+.contact-me{
+    padding-bottom: 8rem;
+}
+.bottom-container{
+    background-color: #393e46;
+    padding: 3rem 0 1rem 0;
+    margin: 0;
+    
+}
+.footer-link{
+    margin: 2rem;
+    color: #00adb5;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    text-decoration:underline;
+}
+
+.copyright{
+    padding-top: 2rem;
+    color: #eeeeee;
+}
+
+
+.button-contactme {
+    background: #393E46;
+    background-image: -webkit-linear-gradient(top, #393E46, #1B1E24);
+    background-image: -moz-linear-gradient(top, #393E46, #1B1E24);
+    background-image: -ms-linear-gradient(top, #393E46, #1B1E24);
+    background-image: -o-linear-gradient(top, #393E46, #1B1E24);
+    background-image: -webkit-gradient(to bottom, #393E46, #1B1E24);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 0.5rem;
+    color: #EEEEEE;
+    font-family: 'New Tegomin', serif;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0.4rem 1.7rem 0.6rem;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: -8px 1px 20px #000000;
+    border: groove #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .button-contactme:hover {
+    border: solid #000000 1px;
+    background: #1B1E24;
+    background-image: -webkit-linear-gradient(top, #1B1E24, #393E46);
+    background-image: -moz-linear-gradient(top, #1B1E24, #393E46);
+    background-image: -ms-linear-gradient(top, #1B1E24, #393E46);
+    background-image: -o-linear-gradient(top, #1B1E24, #393E46);
+    background-image: -webkit-gradient(to bottom, #1B1E24, #393E46);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+ }
